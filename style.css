@@ -1,0 +1,24 @@
+body {
+  /*
+  background-image: url(./assets/photo1.jpg);
+  background-repeat: no-repeat;
+  background-position: top center; //centralizar a imagen
+  background-size: cover; //cobrir toda área visivel*/
+
+  /*utilizando shorthand*/
+  background: url(./assets/brackground.jpg) no-repeat top center/cover;
+}
+#container {
+  width: 360px;
+  border: 1px solid red;
+  margin: auto; /*alinhando uma caixa ao meio*/
+
+  /*
+  display: block pega toda a largura do container disponível
+  display: none */
+}
+#profile img {
+  width: 112px;
+  margin: auto;
+
+}
